@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <div id="container"></div>
+      <div id="start">Start Quiz!</div>
+      <div id="quiz" style="display: none">
+        <div id="question"></div>
+        <div id="qImg"></div>
+        <div id="choices">
+          <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+          <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+          <div class="choice" id="C" onclick="checkAbswer('C')"></div>
+          <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+        </div>
+        
+        <div id="timer">
+          <div id="counter"></div>
+          <div id="btimeGauge"></div>
+          <div id="timeGauge"></div>
+        </div>
+        
+        <div id="progress"></div>
+      </div>
+      
+      <div id="scoreContainer" style="display: none"></div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
