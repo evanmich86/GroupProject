@@ -13,35 +13,91 @@ let availableQuestions = [];
 // Creating question objects
 let questions = [
     {
-      question: "Inside which HTML element do we put the JavaScript?",
-      choice1: "<script>",
-      choice2: "<javascript>",
-      choice3: "<js>",
-      choice4: "<scripting>",
-      answer: 1
+        question: "Which package is automatically available to all Java programs?",
+        choice1: "java.basic",
+        choice2: "java.text",
+        choice3: "java.lang",
+        choice4: "java.util",
+        answer: 3
     },
     {
-      question:
-        "What is the correct syntax for referring to an external script called 'xxx.js'?",
-      choice1: "<script href='xxx.js'>",
-      choice2: "<script name='xxx.js'>",
-      choice3: "<script src='xxx.js'>",
-      choice4: "<script file='xxx.js'>",
-      answer: 3
+        question: "Which of the following can you not assign to a numeric variable?",
+        choice1: "another numeric variable",
+        choice2: "a numeric literal",
+        choice3: "null",
+        choice4: "an arithmetic expression",
+        answer: 3
     },
     {
-      question: " How do you write 'Hello World' in an alert box?",
-      choice1: "msgBox('Hello World');",
-      choice2: "alertBox('Hello World');",
-      choice3: "msg('Hello World');",
-      choice4: "alert('Hello World');",
-      answer: 4
+        question: "Which of the following is a valid class name?",
+        choice1: "CustomerMaintApp",
+        choice2: "Numeric#Validator",
+        choice3: "2004YearEndApp",
+        choice4: "Customer-Maintenance",
+        answer: 1
+    },
+    {
+        question: "Which of the folling is a reserved word in Java?",
+        choice1: "if",
+        choice2: "for",
+        choice3: "while",
+        choice4: "All of the above",
+        answer: 4
+    },
+    {
+        question: "Which of the following identifiers follows the Java convention for a variable name?",
+        choice1: "MaxHeight",
+        choice2: "maxHeight",
+        choice3: "MAX_HEIGHT",
+        choice4: "Max_Height",
+        answer: 2
+    },
+    {
+        question: "Which of the following is a correct print statement in Java?",
+        choice1: "System.out.print()",
+        choice2: "System.out.println()",
+        choice3: "System.out.printf()",
+        choice4: "All of the above",
+        answer: 4
+    },
+    {
+        question: "Leaving off a semi-colon at the end of a println statement is an example of what kind of error?",
+        choice1: "Runtime",
+        choice2: "Logic",
+        choice3: "Syntax",
+        choice4: "All of the above",
+        answer: 3
+    },
+    {
+        question: "Computing an incorrect result is an example of what kind of error?",
+        choice1: "Logic",
+        choice2: "Runtime",
+        choice3: "Syntax",
+        choice4: "Production",
+        answer: 1
+    },
+    {
+        question: "Which of the following is true about a method's local data?",
+        choice1: "It must be passed in as a parameter",
+        choice2: "It ceases to exist when the method returns",
+        choice3: "Its must match the method's return type",
+        choice4: "It cannot be used in an assignment statement",
+        answer: 2
+    },
+    {
+        question: "If a method doesn't return a value, what should its return type be?",
+        choice1: "null",
+        choice2: "void",
+        choice3: "this",
+        choice4: "there should be no return type",
+        answer: 2
     }
+
 ];
 
 //CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
     questionCounter = 0;
