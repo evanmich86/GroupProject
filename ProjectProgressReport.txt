@@ -6,10 +6,14 @@ Jacob Tingler
 
 Project Progress Report
 
-	So far, we have made a functioning web-based quiz application. The user is able to answer 10 questions.  The application features a progress bar, visual cues to right or wrong answers, and score board. At the conclusion of the quiz, the user is able to enter their name for inclusion in the high score table.
+	So far, we have made a functioning web-based quiz application. The user is able to 
+    answer 10 questions.  The application features a progress bar, visual cues to right 
+    or wrong answers, and score board. At the conclusion of the quiz, the user is able 
+    to enter their name for inclusion in the high score table.
 
 Features to Add
-•	Ability to choose between different quiz categories, i.e. Java, Data Structures, Systems Programming, etc.
+•	Ability to choose between different quiz categories, i.e. Java, Data Structures, 
+    Systems Programming, etc.
 •	Add additional questions
 
 To Do
