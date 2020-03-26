@@ -6,5 +6,8 @@
 		{
 			"path": "/Users/evanchristensen/Source/4210GroupProject/GroupProject"
 		}
-	]
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GroupProject"
+	}
 }
