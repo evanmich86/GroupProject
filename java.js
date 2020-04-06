@@ -18,8 +18,7 @@ let questions = [
         choice2: "java.text",
         choice3: "java.lang",
         choice4: "java.util",
-        answer: 3,
-        category: "Java"
+        answer: 3
     },
     {
         question: "Which of the following can you not assign to a numeric variable?",
@@ -27,8 +26,7 @@ let questions = [
         choice2: "a numeric literal",
         choice3: "null",
         choice4: "an arithmetic expression",
-        answer: 3,
-        category: "Java"
+        answer: 3
     },
     {
         question: "Which of the following is a valid class name?",
@@ -36,8 +34,7 @@ let questions = [
         choice2: "Numeric#Validator",
         choice3: "2004YearEndApp",
         choice4: "Customer-Maintenance",
-        answer: 1,
-        category: "Java"
+        answer: 1
     },
     {
         question: "Which of the folling is a reserved word in Java?",
@@ -45,8 +42,7 @@ let questions = [
         choice2: "for",
         choice3: "while",
         choice4: "All of the above",
-        answer: 4,
-        category: "Java"
+        answer: 4
     },
     {
         question: "Which of the following identifiers follows the Java convention for a variable name?",
@@ -54,8 +50,7 @@ let questions = [
         choice2: "maxHeight",
         choice3: "MAX_HEIGHT",
         choice4: "Max_Height",
-        answer: 2,
-        category: "Java"
+        answer: 2
     },
     {
         question: "Which of the following is a correct print statement in Java?",
@@ -63,8 +58,7 @@ let questions = [
         choice2: "System.out.println()",
         choice3: "System.out.printf()",
         choice4: "All of the above",
-        answer: 4,
-        category: "Java"
+        answer: 4
     },
     {
         question: "Leaving off a semi-colon at the end of a println statement is an example of what kind of error?",
@@ -72,8 +66,7 @@ let questions = [
         choice2: "Logic",
         choice3: "Syntax",
         choice4: "All of the above",
-        answer: 3,
-        category: "Java"
+        answer: 3
     },
     {
         question: "Computing an incorrect result is an example of what kind of error?",
@@ -81,8 +74,7 @@ let questions = [
         choice2: "Runtime",
         choice3: "Syntax",
         choice4: "Production",
-        answer: 1,
-        category: "Java"
+        answer: 1
     },
     {
         question: "Which of the following is true about a method's local data?",
@@ -90,8 +82,7 @@ let questions = [
         choice2: "It ceases to exist when the method returns",
         choice3: "Its must match the method's return type",
         choice4: "It cannot be used in an assignment statement",
-        answer: 2,
-        category: "Java"
+        answer: 2
     },
     {
         question: "If a method doesn't return a value, what should its return type be?",
@@ -99,8 +90,7 @@ let questions = [
         choice2: "void",
         choice3: "this",
         choice4: "there should be no return type",
-        answer: 2,
-        category: "Java"
+        answer: 2
     }
 
 ];
@@ -121,7 +111,7 @@ getNewQuestion = () => {
     if(availableQuestions.length == 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem("mostRecentScore", score);
         //go to the end page
-        return window.location.assign("/end.html");
+        return window.location.assign("end.html");
     }
     questionCounter++;
     //increment question counter
