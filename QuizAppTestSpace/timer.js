@@ -1,6 +1,6 @@
 let second = 1000;
-let seconds = 30;
-let minutes = 1;
+let seconds = 1;
+let minutes = 2;
 let then = Date.now();
 
 let timer = document.getElementById("time_left");
