@@ -1,0 +1,21 @@
+Example: User completes a quiz.
+
+A user arrives at the homepage of the quiz application.  The user selects a quiz to
+take from the dropdown menu. Once a quiz is chosen the user is brought to the quiz 
+page and answers ten multiple choice questions on the chosen subject. Correct  
+responses are denoted by a green button background color and the user's score is 
+incremented by 10.  Incorrect responses are denoted by a red button background color
+and the user's score is not incremented.  At the conclusion of the quiz the user is 
+brought to the end page.
+
+IF the user enters his/her name AND acquired a high score for the quiz:
+    -The user is brought to the high score page and the user's name and
+     score are posted to the high score page.
+
+IF the user enters his/her name AND HAS NOT acquired a high score for the quiz:
+    -The user is brought to the high score page and the user's name and score
+     are not posted to the high score page.
+
+IF the user choses the Go Home button WITHOUT entering his/her name:
+    -The user is brought to the application homepage to choose a new quiz. The 
+     user's previous score will not be saved.
