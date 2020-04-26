@@ -1,0 +1,5 @@
+Example: A user begins a quiz but does not complete it.
+
+The user is brought to the quiz application homepage.  The user selects a quiz and 
+begins answering questions.  At any point before the end screen, the user may exit 
+the application.  The user's score for this unfinished quiz is not recoreded.

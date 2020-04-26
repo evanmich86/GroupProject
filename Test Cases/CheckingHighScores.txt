@@ -1,0 +1,8 @@
+Example: User wishes to view the high score table.
+
+A user arrives at the quiz application homepage.  The user clicks on the High Scores 
+button.  The user is brought a listing of the highest scores.
+
+IF the user clicks the Go Home button, he/she will be returned to the application 
+    homepage.  From there the user may decide to start their own quiz, view the high
+    scores again, or exit.
