@@ -1,0 +1,29 @@
+Taking the quiz:
+In the folder you will find a file titled index.html. When you open that file, it 
+will bring you to the webpage containing the quiz. If you click the Select Quiz button, 
+it will hide the questions. Under the Select Quiz button you will see three different 
+quizzes: Java, Python, and HTML. Click on the quiz of your choice and begin. Once the 
+quiz starts you will have 2 minutes to complete 10 questions. If you get a question 
+correct you will earn 10 points, but if you get the question wrong you will earn 
+0 points. Once the quiz is over, you will see your total score. If you want to, 
+you can type your name into the white box and save your high score. If not, 
+you can choose to play again, or go home to take a quiz for another subject.
+
+Editing the quiz:
+If you want to change questions for a quiz, first you need to find the JavaScript file 
+for the subject that you want to change. For example, if you want to change a question 
+for the Java quiz, you need to open java.js. Once you find the JavaScript file you are 
+looking for, scroll down until you find a comment that says �// Creating question 
+objects�. Inside each question function there is a different question, and every 
+choice function are the possible answers for the question provided. The answer function 
+should be an integer. That integer is going to be the choice selection number that has 
+the correct answer is on.
+If you want to increase the number of questions and add a new question find a comment 
+that says �//CONSTANTS�. When you find it, 
+there are two variables: CORRECT_BONUS and MAX_QUESTIONS. 
+Change the integer numbers to the number of questions you want to have.
+
+Edit the timer:
+Open the timer.js file and open it. �let seconds� and �let minutes� 
+should be the number of minutes and seconds you want the quiz to be. 
+It is currently set at 2 minutes and 1 second.
