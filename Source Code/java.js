@@ -37,7 +37,7 @@ let questions = [
         answer: 1
     },
     {
-        question: "Which of the folling is a reserved word in Java?",
+        question: "Which of the following is a reserved word in Java?",
         choice1: "if",
         choice2: "for",
         choice3: "while",
